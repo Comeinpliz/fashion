@@ -1,0 +1,219 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:  #c3ce62;
+}
+
+header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  background: url('Dior\ Opens\ Paris\ Couture\ Week\ With\ a\ Dreamy\,\ Experimental\ Short\ Film.jpg');
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
+}
+.logo img {
+  float: left; 
+  width: 100px; 
+  height: auto;
+}
+.brand {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.brand h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.brand p {
+  font-size: 16px;
+  margin: 0;
+}
+
+nav {
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 25PX;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #acd3df;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #0a3e61;
+}
+
+h3{
+  color: #f9cd91;
+}
+h4{
+  font-size: 30px;
+  color: #0a3e61;
+}
+p{
+  color: #0a3e61;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #acd3df;
+}
+
+.service {
+  margin: 20px;
+  text-align: center;
+}
+
+.service img {
+  width: 330px;
+  height: 500px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input, select, textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  color: #6bda2c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: url('NiFE3VWn.jpg');
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.footer-column {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.footer-column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+}
+.btn {
+  appearance: none;
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid #2cd809;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #333;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid transparent;
+  width: calc(33.33% - 20px);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}
